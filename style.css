@@ -1,0 +1,127 @@
+.text{
+    position: absolute;
+    top: 9%;
+    right: 55%;
+}
+.d-flex{
+    display: flex;
+    flex-direction:row;
+}
+.page4{
+width: 100%;
+height: auto;
+background-color: black;
+overflow: hidden;
+padding-bottom: 90px;
+}
+.button{
+align-items: center;
+height: 75%;
+width: 80%;
+float: left;
+margin-top: 1%;
+background-color: rgb(0, 0, 0);
+margin-left: 10%;
+}
+details > summary {
+margin-top: 9px;
+padding: 4px;
+padding-top: 8px;
+padding-left: 15px;
+width: auto;
+height: 67px;
+background-color: #303030;
+cursor: pointer;
+font-size: 33px;
+color: white;
+}
+
+details > p {
+padding: 4px;
+color: white;
+width: auto;
+margin: 0;
+background-color:#303030;
+box-shadow: 1px 1px 2px #bbbbbb;
+border-top: 1px solid rgb(0, 0, 0);
+font-size: 33px;
+padding: 25px;
+}
+/*-------------------------------------------------------*/
+.about_1{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    color: white;
+}
+.div_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    padding: 30px;
+}
+.div_2{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 15px;
+    padding: 30px;
+}
+.div_img img {
+    width: 350px;
+}
+.div_text h1 {
+    font-size: 3rem;
+    margin-bottom: 35px;
+}
+.div_text span {
+    font-size: 1.2rem;
+}
+.div_text{
+    margin-left: 33px;
+    margin-top: 20px;
+}
+@media (max-width : 1100px){
+    .div_1{
+        grid-template-columns: 1fr 1fr;
+    }
+    .div_2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .div_img img {
+        margin-left: 33px;
+    }
+}
+@media (max-width : 850px){
+    .div_1{
+        grid-template-columns: 1fr;
+    }
+    .div_2{
+        grid-template-columns: 1fr;
+    }
+    .about_1{
+        height: 500px;
+    }
+}
+
+@media (max-width : 550px) {
+    .div_1{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .div_2{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .about_1{
+        height: 530px;
+    }
+    .div_text h1 {
+        font-size: 2rem;
+    }
+    .div_text{
+        margin-bottom: 40px;
+    }
+    
+    
+}
